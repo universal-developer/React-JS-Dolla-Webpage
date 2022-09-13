@@ -4,18 +4,18 @@ import { Link as LinkR } from 'react-router-dom'
 import { FaTimes } from 'react-icons/fa'
 
 export const SidebarContainer = styled.aside`
-  position: fixed; 
+  position: fixed;
   z-index: 999;
   width: 100%;
-  height: 100%; 
-  background: #0d0d0d; 
-  display: grid; 
-  align-items: center; 
-  top: 0; 
-  left: 0; 
-  transition: 0.3s ease-in-out; 
-  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+  height: 100%;
+  background: #0d0d0d;
+  display: grid;
+  align-items: center;
+  top: 0;
+  left: 0;
+  transition: .3s ease-in-out;
+  opacity: ${( {isOpen }) => (isOpen ? '100%' : '0')};
+  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')}; 
 `
 
 export const CloseIcon = styled(FaTimes)`
@@ -37,55 +37,55 @@ export const SidebarWrapper = styled.div`
 `
 
 export const SidebarMenu = styled.ul`
-  display: grid; 
-  grid-template-columns: 1fr; 
-  grid-template-rows: repeat(6, 80px); 
-  text-align: center; 
-
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 80px);
+  text-align: center;
+  
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px); 
+    grid-template-rows: repeat(6, 60px);
   }
 `
 
 export const SidebarLink = styled(LinkS)`
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  font-size: 1.5rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
   text-decoration: none;
-  list-style; none; 
-  transition: 0.2s ease-in-out; 
+  list-style: none;
+  transition: .2s ease-in-out;
   text-decoration: none;
-  color: #fff; 
-  cursor: pointer; 
-  
+  color: #FFF;
+  cursor: pointer;
+
   &:hover {
-    color: #01bf71; 
-    transition: 0.2s ease-in-out;
+    color: #01bf71;
+    transition: .2s ease-in-out;
   }
 `
 
 export const SideBtnWrap = styled.div`
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
 `
 
 export const SidebarRoute = styled(LinkR)`
-  border-radius: 50px; 
-  background: #01bf71; 
-  white-space: nowrap; 
+  border-radius: 50px;
+  background: #01bf71;
+  white-space: nowrap;
   padding: 16px 64px;
-  color: #010606; 
-  font-size: 16px; 
+  color: #010606;
+  font-size: 16px;
   outline: none;
-  border: none; 
+  border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out; 
-  text-decoration: none; 
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
 
   &:hover {
-    transition: all 0.2s ease-in-out; 
-    background: #fff; 
+    background: #FFF;
     color: #010606;
+    transition: all .2s ease-in-out;
   }
 `
