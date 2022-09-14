@@ -21,12 +21,11 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
 	display: flex;
-	justify-content: space-between;
-	height: 80px;
-	z-index: 1;
-	width: 100%;
-	padding: 0 24px;
-	max-width: 1100px;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  padding: 0 24px;
 `;
 
 export const NavLogo = styled(LinkR)`
