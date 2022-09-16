@@ -9,8 +9,6 @@
 <h2 align="center">Desktop Version:</h2>
 <p align="center"><img src="git/full-desktop.jpeg" height="550px"/></p>
 
-<hr>
-
 <h2 align="center">Mobile Version:</h2>
 
 <p align="center">
