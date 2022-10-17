@@ -32,5 +32,4 @@ npm start
 ```
 
 <h2>Link on video:</h2>
-
-<a href="https://youtu.be/Nl54MJDR2p8"><p align="center">PRESS HERE TO WATCH</p></a>
+<p align="center"><a href="https://youtu.be/Nl54MJDR2p8">PRESS HERE TO WATCH</a></p>
